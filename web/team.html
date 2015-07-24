@@ -28,7 +28,12 @@
     <header id="header">
 
       <div class="area">
-        <h2 class="heading-blue text-center">The Land and Housing Survey in a Global Sample of Cities</h2>
+
+        <a target="_blank" href="http://urbanizationproject.org/">
+          <img class="header-logo" src="images/logo.png">
+        </a>
+
+        <h2 class="heading-black">The Land and Housing Survey in a Global Sample of Cities</h2>
       </div>
       
 
@@ -38,7 +43,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="project.html">Expansion Area Maps</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="documents.html">Documents</a></li>
+            <li><a href="documents.html">Media</a></li>
             <li><a href="faq.html">FAQ</a></li>
             <li class="active"><a href="team.html">Team</a></li>        
             <li><a href="contact.html">Contact</a></li>
@@ -53,9 +58,10 @@
 
       <!-- Jumbotron -->
       <div class="jumbotron">
-        <h2 class="heading-blue">URBANIZATION PROJECT STAFF</h2>
+        <div class="collapse-group">
+          <h2 class="heading-blue team-group">URBANIZATION PROJECT STAFF</h2>
 
-          <section class="bio-list">
+          <section class="bio-list collapse">
 
             <article id="person-shlomo-solly-angel" class="post">
               <div class="alignleft">
@@ -97,7 +103,36 @@
               </div>
             </article>
           </section>
-      </div>
+          </div>
+
+          <div class="collapse-group">
+            <h2 class="heading-blue team-group">Regional Coordinators</h2>
+            <section class="bio-list collapse">
+            </section>
+          </div>
+
+          <div class="collapse-group">  
+            <h2 class="heading-blue team-group">City Based Researchers</h2>
+            <section class="bio-list collapse">
+            </section>
+          </div>
+        </div>
+
+       <script src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(e) {
+            $('.team-group').on('click', function(e) {
+              e.preventDefault();
+              var $this = $(this);
+              var $collapse = $this.closest('.collapse-group').find('.collapse');
+              $collapse.slideToggle();
+            });
+          });
+      </script>
+
+
+
+
     </div> <!-- /container -->
 
      <!-- Site footer -->
