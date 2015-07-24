@@ -150,6 +150,9 @@ font-size: 14px;
   margin-left: auto;
 }
 
+#header .area {
+  padding:0 0;
+}
 .logo{
   width:92px;
   height:30px;
@@ -269,8 +272,14 @@ font-size: 14px;
 .marron-logo {
   float: right;
   padding: 0px 10px;
+  width: 300px;
 }
 
+.header-logo {
+  float: left;
+  width: 190px;
+
+}
 
 /* FROM UP WEBSITE */
 
@@ -279,7 +288,7 @@ font-size: 14px;
   padding-right: 0px;
   border-radius: 5px;
   background-color: rgba(238, 246, 255, 0.6);
-  margin-top: 9.4%;
+  margin-top: 10.5%;
 }
 
 /** maps on home page  **/
@@ -290,7 +299,29 @@ img.cities200 {
 
 .heading-blue {
 
-font: 35px/50px 'source_sans_probold', sans-serif; color: #1A525E; margin: 0 0 10px;
+font: 30px/50px 'source_sans_probold', sans-serif; color: #1A525E; margin: 0 0 10px;
+  letter-spacing: -2px; text-transform: uppercase;
+  
+}
+
+.team-group {
+  cursor: pointer;
+}
+
+.heading-black {
+
+  font: 30px/50px 'source_sans_probold', sans-serif; 
+  color: #000; 
+  margin: 15px 0;
+  letter-spacing: -2px; 
+  text-transform: uppercase;
+  float: left;    
+}
+
+
+.sub-heading-blue {
+
+font: 25px/30px 'source_sans_probold', sans-serif; color: #1A525E; margin: 0 0 10px;
   letter-spacing: -2px; text-transform: uppercase;
   
 }
