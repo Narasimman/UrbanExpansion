@@ -578,4 +578,9 @@ a.bluelink {
 }
 .location-info p{margin:0;}
 
-
+#map-holder {
+    margin: 20px auto;
+    padding: 20px;
+    width: 73%;
+    border: 1px blue solid;
+}
