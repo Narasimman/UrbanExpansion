@@ -1,0 +1,2626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="546298">
+  <title>Affordability Survey - TEMPLATE</title>
+  <investigator/>
+  <dataCollector/>
+  <questionnaireInfo>
+    <position>before</position>
+    <text/>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <questionnaireInfo>
+    <position>after</position>
+    <text>Thank you for taking the time to participate in this survey.&#13;
+&lt;p&gt;&#13;
+	 &lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+	Please visit our website for more information&lt;/p&gt;</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <section id="95">
+    <sectionInfo>
+      <position>title</position>
+      <text>RESPONDENT INFORMATION</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text/>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Name</text>
+      <subQuestion varName="G1Q00001_SQ001">
+        <text>First</text>
+      </subQuestion>
+      <subQuestion varName="G1Q00001_SQ003">
+        <text>Last</text>
+      </subQuestion>
+      <response varName="G1Q00001">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Position</text>
+      <response varName="G1Q00002">
+        <free>
+          <format>longtext</format>
+          <length>2</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Organization</text>
+      <response varName="G1Q00003">
+        <free>
+          <format>longtext</format>
+          <length>2</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Telephone</text>
+      <response varName="G1Q00004">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Email</text>
+      <response varName="G1Q00005">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="126">
+    <sectionInfo>
+      <position>title</position>
+      <text>INTRODUCTION</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Please look at the map below. The red area represents the city footprint in 2010.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text/>
+      <administration>self</administration>
+    </sectionInfo>
+  </section>
+  <section id="25">
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	SECTION 1: HOUSING TYPES AND THEIR SHARE IN THE OVERALL SUPPLY OF HOUSING IN THE CITY OR METROPOLITAN AREA&lt;/p&gt;&#13;
+&#13;
+	View Map</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Share of this type of dwelling in total housing market in the city (excluding institutional housing)</text>
+      <subQuestion varName="G3Q00001_SQ001">
+        <text>1.1 Estimated share of dwellings in the formal sector that are public housing</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00001_SQ002">
+        <text>1.2 Estimated share of dwellings in the formal sector that are private housing</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00001_SQ003">
+        <text>1.3 Estimated share of private housing units that is in multi-family dwellings</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00001_SQ004">
+        <text>1.4 Estimated share of private housing units that are in single-family homes</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00001_SQ005">
+        <text>1.5 Estimated share of dwellings in the formal sector</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00001_SQ006">
+        <text>1.6 Estimated share of dwellings in the informal sector (slums and squatter settlements)</text>
+      </subQuestion>
+      <response varName="SQ001">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Share (%)</label>
+        </free>
+      </response>
+      <response varName="SQ002">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Minimum</label>
+        </free>
+      </response>
+      <response varName="SQ003">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Maximum</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Dwelling Unit or Plot Type Available for Sale (Values in local currency)</text>
+      <subQuestion varName="G3Q00002_SQ001">
+        <text>1.7 Dwelling unit in public housing</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00002_SQ002">
+        <text>1.8 Apartment in private multi-family building</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00002_SQ003">
+        <text>1.9 Private single-family homes</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00002_SQ004">
+        <text>1.10 Dwelling unit in the informal sector (slums and squatter settlements)</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00002_SQ005">
+        <text>1.11 Plot in fully-serviced formal land subdivision</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00002_SQ006">
+        <text>1.12 Plot in minimally-serviced (informal) land subdivision</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00002_SQ007">
+        <text>1.13 Plot in slum/squatter settlement</text>
+      </subQuestion>
+      <response varName="SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>Typical Price per Square Meter</label>
+        </free>
+      </response>
+      <response varName="SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>Minimum Price per Square Meter</label>
+        </free>
+      </response>
+      <response varName="SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>Maximum Price per Square Meter</label>
+        </free>
+      </response>
+      <response varName="SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>Minimum price per square meter on the urban periphery</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Dwelling Unit or Plot Type Available for Rent</text>
+      <subQuestion varName="G3Q00003_SQ001">
+        <text>1.14 Dwelling unit in public housing</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00003_SQ002">
+        <text>1.15 Apartment in private multi-family building</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00003_SQ003">
+        <text>1.16 Private single-family homes</text>
+      </subQuestion>
+      <subQuestion varName="G3Q00003_SQ004">
+        <text>1.17 Dwelling unit in the informal sector</text>
+      </subQuestion>
+      <response varName="SQ001">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>Typical/Average Rent per Square Meter</label>
+        </free>
+      </response>
+      <response varName="SQ002">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>Minimum Rent per Square Meter</label>
+        </free>
+      </response>
+      <response varName="SQ003">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>Maximum Rent per Square Meter</label>
+        </free>
+      </response>
+      <response varName="SQ004">
+        <free>
+          <format>integer</format>
+          <length>1</length>
+          <label>Minimum rent  per square meter on the urban periphery</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Additional notes for section 1:</text>
+      <response varName="G3Q00004">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="26">
+    <sectionInfo>
+      <position>title</position>
+      <text>SECTION 2: DWELLING UNIT IN PUBLIC HOUSING OFFERED FOR SALE OR RENT</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>View Map</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Features and Attributes</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Estimated Shares</text>
+      <subQuestion varName="G4Q00001_SQ001">
+        <text>2.1 Of public housing units in multi-family dwellings</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00001_SQ002">
+        <text>2.2 Of units with bathroom and toilet inside unit</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00001_SQ003">
+        <text>2.3 Of units with municipal water supply</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00001_SQ004">
+        <text>2.4 Of units with water supply from wells</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00001_SQ005">
+        <text>2.5 Of units with paved road in front of building</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00001_SQ006">
+        <text>2.6 Of units that satisfy municipal building regulations</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00001_SQ007">
+        <text>2.7 Of units with legal ownership documents</text>
+      </subQuestion>
+      <response varName="G4Q00001">
+        <fixed>
+          <category>
+            <label>0-20%</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>20-40%</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>40-60%</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>60-80%</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>80-100%</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>2.8 Living area of dwelling unit? (square meters)</text>
+      <subQuestion varName="G4Q00003_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00003_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00003_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00003">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.9 Sale price of dwelling unit?</text>
+      <subQuestion varName="G4Q00004_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00004_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00004_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00004">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.10 Monthly household income of buyers?</text>
+      <subQuestion varName="G4Q00005_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00005_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00005_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00005">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.11 Age of buyers?</text>
+      <subQuestion varName="G4Q00006_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00006_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00006_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00006">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.12 Is financing available? </text>
+      <response varName="G4Q00007">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>2.12.1 Down payment (percent)</text>
+      <subQuestion varName="G4Q00008_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00008_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00008_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00008">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.12.2 Monthly payment</text>
+      <subQuestion varName="G4Q00009_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00009_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00009_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00009">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.12.3 Number of years to repay loan</text>
+      <subQuestion varName="G4Q00010_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00010_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00010_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00010">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.12.4 Interest rate fixed or variable?</text>
+      <response varName="G4Q00011">
+        <fixed>
+          <category>
+            <label>Fixed</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Variable</label>
+            <value>A2</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>2.12.5 Interest rate (percent)</text>
+      <subQuestion varName="G4Q00012_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00012_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00012_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00012">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.13 Are units available for rent?</text>
+      <response varName="G4Q00013">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>2.13.1 Monthly household income of renters</text>
+      <subQuestion varName="G4Q00014_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00014_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00014_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00014">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.13.2 Age of renters</text>
+      <subQuestion varName="G4Q00015_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00015_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00015_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00015">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.13.3 Monthly rent</text>
+      <subQuestion varName="G4Q00016_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00016_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G4Q00016_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G4Q00016">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Additional notes for section 2:</text>
+      <response varName="G4Q00017">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="27">
+    <sectionInfo>
+      <position>title</position>
+      <text>SECTION 3: APARTMENTS IN PRIVATE MULTI-FAMILY BUILDINGS OFFERED FOR SALE OR RENT</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>View Map</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Features and Attributes</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Estimated shares</text>
+      <subQuestion varName="G5Q00001_SQ002">
+        <text>3.1 Of units with bathroom and toilet inside unit</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00001_SQ003">
+        <text>3.2 Of units with municipal water supply</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00001_SQ004">
+        <text>3.3 Of units with water supply from wells</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00001_SQ005">
+        <text>3.4 Of units with paved road in front of building</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00001_SQ006">
+        <text>3.5 Of units that satisfy municipal building regulations</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00001_SQ007">
+        <text>3.6 Of units with legal ownership documents</text>
+      </subQuestion>
+      <response varName="G5Q00001">
+        <fixed>
+          <category>
+            <label>0-20%</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>20-40%</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>40-60%</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>60-80%</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>80-100%</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.7 Living area of dwelling unit? (square meters)</text>
+      <subQuestion varName="G5Q00003_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00003_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00003_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00003">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.8 Sale price of dwelling unit?</text>
+      <subQuestion varName="G5Q00004_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00004_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00004_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00004">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.9 Monthly household income of buyers?</text>
+      <subQuestion varName="G5Q00005_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00005_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00005_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00005">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.10 Age of buyers?</text>
+      <subQuestion varName="G5Q00006_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00006_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00006_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00006">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.11 Is financing available? </text>
+      <response varName="G5Q00007">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.11.1 Down payment (percent)</text>
+      <subQuestion varName="G5Q00008_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00008_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00008_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00008">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.11.2 Monthly payment</text>
+      <subQuestion varName="G5Q00009_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00009_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00009_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00009">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.11.3 Number of years to repay loan</text>
+      <subQuestion varName="G5Q00010_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00010_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00010_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00010">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.11.4 Interest rate fixed or variable?</text>
+      <response varName="G5Q00011">
+        <fixed>
+          <category>
+            <label>Fixed</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Variable</label>
+            <value>A2</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.11.5 Interest rate (percent)</text>
+      <subQuestion varName="G5Q00012_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00012_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00012_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00012">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.12 Are units available for rent?</text>
+      <response varName="G5Q00013">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.12.1 Monthly household income of renters</text>
+      <subQuestion varName="G5Q00014_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00014_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00014_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00014">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.12.2 Age of renters</text>
+      <subQuestion varName="G5Q00015_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00015_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00015_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00015">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>3.12.3 Monthly rent</text>
+      <subQuestion varName="G5Q00016_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00016_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G5Q00016_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G5Q00016">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Additional notes for section 3:</text>
+      <response varName="G5Q00017">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="38">
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	SECTION 4: PRIVATE DWELLING UNITS IN SINGLE-FAMILY HOMES ON INDIVIDUAL PLOTS OF LAND OFFERED FOR SALE (OR LONG LEASE) OR FOR MONTHLY RENT&lt;/p&gt;&#13;
+&#13;
+	View Map</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Features and Attributes</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Estimated Shares</text>
+      <subQuestion varName="G6Q00001_SQ002">
+        <text>4.1 Of units with bathroom and toilet inside unit</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00001_SQ003">
+        <text>4.2 Of units with municipal water supply</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00001_SQ004">
+        <text>4.3 Of units with water supply from wells</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00001_SQ005">
+        <text>4.4 Of units with paved road in front of building</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00001_SQ006">
+        <text>4.5 Of units that satisfy municipal building regulations</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00001_SQ007">
+        <text>4.6 Of units with legal ownership documents</text>
+      </subQuestion>
+      <response varName="G6Q00001">
+        <fixed>
+          <category>
+            <label>0-20%</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>20-40%</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>40-60%</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>60-80%</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>80-100%</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>4.7 Living Area of dwelling unit? (square meters)</text>
+      <subQuestion varName="G6Q00003_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00003_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00003_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00003">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.8 Plot area (square mters)</text>
+      <subQuestion varName="G6Q00004_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00004_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00004_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00004">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.9 Sale Price of dwelling unit?</text>
+      <subQuestion varName="G6Q00005_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00005_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00005_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00005">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.10 The share of the sale price paid for the contruction of the house</text>
+      <subQuestion varName="G6Q00006_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00006_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00006_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00006">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.11 The share of the sale price paid for land and infrastructure services</text>
+      <subQuestion varName="G6Q00007_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00007_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00007_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00007">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.12 Monthly household income of buyers?</text>
+      <subQuestion varName="G6Q00008_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00008_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00008_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00008">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.13 Age of buyers?</text>
+      <subQuestion varName="G6Q00009_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00009_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00009_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00009">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.14 Is financing available? </text>
+      <response varName="G6Q00010">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>4.14.1 Down Payment (percent)</text>
+      <subQuestion varName="G6Q00011_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00011_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00011_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00011">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.14.2 Monthly Payment</text>
+      <subQuestion varName="G6Q00012_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00012_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00012_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00012">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.14.3 Number of years to repay loan</text>
+      <subQuestion varName="G6Q00013_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00013_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00013_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00013">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.14.4 Interest Rate fixed or variable?</text>
+      <response varName="G6Q00014">
+        <fixed>
+          <category>
+            <label>Fixed</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Variable</label>
+            <value>A2</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>4.14.5 Interest rate (percent)</text>
+      <subQuestion varName="G6Q00015_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00015_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00015_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00015">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.15 Are units available for rent?</text>
+      <response varName="G6Q00016">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>4.15.1 Monthly household income of renters</text>
+      <subQuestion varName="G6Q00017_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00017_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00017_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00017">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.15.2 Age of renters</text>
+      <subQuestion varName="G6Q00018_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00018_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00018_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00018">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.15.3 Monthly rent</text>
+      <subQuestion varName="G6Q00019_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00019_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G6Q00019_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G6Q00019">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Additional notes for section 4:</text>
+      <response varName="G6Q00020">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="39">
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	SECTION 5: DWELLING UNIT IN THE INFORMAL SECTOR (SLUMS AND SQUATTER SETTLEMENTS) OFFERED FOR SALE OR FOR MONTHLY RENT&lt;/p&gt;&#13;
+&#13;
+	View Map</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Features and Attributes</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Estimated Shares</text>
+      <subQuestion varName="G7Q00001_SQ002">
+        <text>5.1 Of units with bathroom and toilet inside unit</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00001_SQ003">
+        <text>5.2 Of units with municipal water supply</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00001_SQ004">
+        <text>5.3 Of units with water supply from wells</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00001_SQ006">
+        <text>5.4 Of units with water supply from water trucks</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00001_SQ005">
+        <text>5.5 Of units with paved road in front of building</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00001_SQ007">
+        <text>5.6 Of units with legal ownership documents</text>
+      </subQuestion>
+      <response varName="G7Q00001">
+        <fixed>
+          <category>
+            <label>0-20%</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>20-40%</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>40-60%</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>60-80%</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>80-100%</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>5.7 Living Area of dwelling unit? (square meters)</text>
+      <subQuestion varName="G7Q00003_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00003_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00003_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G7Q00003">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>5.8 Plot area (square meters)</text>
+      <subQuestion varName="G7Q00004_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00004_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00004_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G7Q00004">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>5.9 Sale price of dwelling unit?</text>
+      <subQuestion varName="G7Q00005_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00005_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00005_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G7Q00005">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>5.10 Monthly household income of buyers?</text>
+      <subQuestion varName="G7Q00006_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00006_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00006_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G7Q00006">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>5.11 Age of buyers?</text>
+      <subQuestion varName="G7Q00007_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00007_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00007_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G7Q00007">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>5.12 Are units available for rent?</text>
+      <response varName="G7Q00008">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>5.12.1 Monthly household income of renters</text>
+      <subQuestion varName="G7Q00009_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00009_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00009_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G7Q00009">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>5.12.2 Age of renters</text>
+      <subQuestion varName="G7Q00010_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00010_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00010_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G7Q00010">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>5.12.3 Monthly rent</text>
+      <subQuestion varName="G7Q00011_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00011_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G7Q00011_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G7Q00011">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Additional notes for section 5:</text>
+      <response varName="G7Q00012">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="40">
+    <sectionInfo>
+      <position>title</position>
+      <text>SECTION 6: PLOTS IN FORMAL RESIDENTIAL LAND SUBDIVISIONS OFFERED FOR SALE (OR LONG LEASE)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	Note: "Formal" means that such subdivisions satisfy zoning and land subdivision regulations&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+	and offer official land sale (or long lease) documents.&lt;/p&gt;&#13;
+&#13;
+	View Map</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Features and Attributes</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Estimated Shares</text>
+      <subQuestion varName="G8Q00001_SQ003">
+        <text>6.1 Of plots with municipal water Supply</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00001_SQ004">
+        <text>6.2 Of plots connected to municipal sewerage network</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00001_SQ005">
+        <text>6.3 Of plots with water supply from wells</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00001_SQ006">
+        <text>6.4 Of plots with paved road in front of building</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00001_SQ007">
+        <text>6.5 Of plots that satisfy municipal land subdivision regulations</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00001_SQ008">
+        <text>6.6 Of plots with legal ownership documents</text>
+      </subQuestion>
+      <response varName="G8Q00001">
+        <fixed>
+          <category>
+            <label>0-20%</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>20-40%</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>40-60%</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>60-80%</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>80-100%</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>6.7 Plot area (square meters)</text>
+      <subQuestion varName="G8Q00003_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00003_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00003_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00003">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.8 Sale price of plot?</text>
+      <subQuestion varName="G8Q00004_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00004_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00004_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00004">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.9 Monthly household income of buyers?</text>
+      <subQuestion varName="G8Q00005_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00005_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00005_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00005">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.10 Age of buyers?</text>
+      <subQuestion varName="G8Q00006_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00006_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00006_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00006">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.11 Is financing available? </text>
+      <response varName="G8Q00007">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>6.11.1 Down Payment (percent)</text>
+      <subQuestion varName="G8Q00008_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00008_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00008_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00008">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.11.2 Monthly payment</text>
+      <subQuestion varName="G8Q00009_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00009_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00009_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00009">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.11.3 Number of years to repay loan</text>
+      <subQuestion varName="G8Q00010_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00010_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00010_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00010">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.11.4 Interest rate fixed or variable?</text>
+      <response varName="G8Q00011">
+        <fixed>
+          <category>
+            <label>Fixed</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Variable</label>
+            <value>A2</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>6.11.5 Interest rate (percent)</text>
+      <subQuestion varName="G8Q00012_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00012_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00012_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00012">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.12 Typical house area in these subdivisions (square meters)</text>
+      <subQuestion varName="G8Q00013_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00013_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00013_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00013">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.13 Typical construction cost per square meter</text>
+      <subQuestion varName="G8Q00014_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00014_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G8Q00014_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G8Q00014">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Additional notes for section 6:</text>
+      <response varName="G8Q00015">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="41">
+    <sectionInfo>
+      <position>title</position>
+      <text>SECTION 7: PLOTS IN INFORMAL RESIDENTIAL LAND SUBDIVISIONS OFFERED FOR SALE (OR LONG LEASE)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	Note: "Informal" means that such land subdivisions do not satisfy zoning and land subdivision regulations&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+	but do offer official or semi-official land sale (or long lease) documents.&lt;/p&gt;&#13;
+&#13;
+	View Map</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Features and Attributes</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Estimated Shares</text>
+      <subQuestion varName="G9Q00001_SQ003">
+        <text>7.1 Of plots with municipal water supply</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00001_SQ004">
+        <text>7.2 Of plots connected to municipal sewerage network</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00001_SQ005">
+        <text>7.3 Of plots with water supply from wells</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00001_SQ006">
+        <text>7.4 Of plots with paved road in front of building</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00001_SQ008">
+        <text>7.5 Of plots with legal ownership documents</text>
+      </subQuestion>
+      <response varName="G9Q00001">
+        <fixed>
+          <category>
+            <label>0-20%</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>20-40%</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>40-60%</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>60-80%</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>80-100%</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>7.6 Plot area (square meters)</text>
+      <subQuestion varName="G9Q00003_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00003_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00003_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00003">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.7 Sale price of plot?</text>
+      <subQuestion varName="G9Q00004_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00004_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00004_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00004">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.8 Monthly household income of buyers?</text>
+      <subQuestion varName="G9Q00005_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00005_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00005_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00005">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.9 Age of buyers?</text>
+      <subQuestion varName="G9Q00006_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00006_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00006_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00006">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.10 Is financing (of any kind) available? </text>
+      <response varName="G9Q00007">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>7.10.1 Down payment (percent)</text>
+      <subQuestion varName="G9Q00008_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00008_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00008_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00008">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.10.2 Monthly payment</text>
+      <subQuestion varName="G9Q00009_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00009_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00009_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00009">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.10.3 Number of years to repay loan</text>
+      <subQuestion varName="G9Q00010_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00010_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00010_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00010">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.10.4 Interest rate fixed or variable?</text>
+      <response varName="G9Q00011">
+        <fixed>
+          <category>
+            <label>Fixed</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Variable</label>
+            <value>A2</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>7.10.5 Interest rate (percent)</text>
+      <subQuestion varName="G9Q00012_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00012_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00012_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00012">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.11 Typical house area in these subdivisions (square meters)</text>
+      <subQuestion varName="G9Q00013_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00013_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00013_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00013">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.12 Typical construction cost per square meter</text>
+      <subQuestion varName="G9Q00014_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00014_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G9Q00014_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G9Q00014">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Additional notes for section 7:</text>
+      <response varName="G9Q00015">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="42">
+    <sectionInfo>
+      <position>title</position>
+      <text>SECTION 8: PLOTS IN NEW SQUATTER SETTLEMENTS OFFERED FOR SALE</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	Note: "Squatter settlements" refer to land subdivisions, formed by the invasion or the illegal occupation of land&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+	without permission and without land documents, that do not satisfy zoning and land subdivision regulations&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+	and do not offer any land documents.&lt;/p&gt;&#13;
+&#13;
+	View Map</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Features and Attributes</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Estimated Shares</text>
+      <subQuestion varName="G10Q00001_SQ003">
+        <text>8.1 Of plots with municipal water supply</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00001_SQ004">
+        <text>8.2 Of plots connected to municipal sewerage network</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00001_SQ005">
+        <text>8.3 Of plots with water supply from wells</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00001_SQ006">
+        <text>8.4 Of plots with paved road in front of building</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00001_SQ008">
+        <text>8.5 Of plots with legal ownership documents</text>
+      </subQuestion>
+      <response varName="G10Q00001">
+        <fixed>
+          <category>
+            <label>0-20%</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>20-40%</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>40-60%</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>60-80%</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>80-100%</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>8.6 Plot area (square meters)</text>
+      <subQuestion varName="G10Q00003_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00003_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00003_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00003">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>8.7 Sale price of plot?</text>
+      <subQuestion varName="G10Q00004_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00004_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00004_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00004">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>8.8 Monthly household income of buyers?</text>
+      <subQuestion varName="G10Q00005_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00005_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00005_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00005">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>8.9 Age of buyers?</text>
+      <subQuestion varName="G10Q00006_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00006_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00006_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00006">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>8.10 Is financing (of any kind) available? </text>
+      <response varName="G10Q00007">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>8.10.1 Down payment (percent)</text>
+      <subQuestion varName="G10Q00008_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00008_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00008_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00008">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>8.10.2 Monthly payment</text>
+      <subQuestion varName="G10Q00009_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00009_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00009_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00009">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>8.10.3 Number of years to repay loan</text>
+      <subQuestion varName="G10Q00010_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00010_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00010_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00010">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>8.10.4 Interest rate fixed or variable?</text>
+      <response varName="G10Q00011">
+        <fixed>
+          <category>
+            <label>Fixed</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Variable</label>
+            <value>A2</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>8.10.5 Interest rate (percent)</text>
+      <subQuestion varName="G10Q00012_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00012_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00012_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00012">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>8.11 Typical house area in these subdivisions (square meters)</text>
+      <subQuestion varName="G10Q00013_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00013_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00013_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00013">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>8.12 Typical construction cost per square meter</text>
+      <subQuestion varName="G10Q00014_L001">
+        <text>Typical/Average</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00014_L002">
+        <text>Range: From</text>
+      </subQuestion>
+      <subQuestion varName="G10Q00014_L003">
+        <text>Range: To</text>
+      </subQuestion>
+      <response varName="G10Q00014">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Additional notes for section 8:</text>
+      <response varName="G10Q00015">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="43">
+    <sectionInfo>
+      <position>title</position>
+      <text>SECTION 9: ACCESS TO THE CITY CENTER (CITY HALL)</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	Note: This section seeks to determine how accessible are residential areas that were built recently (1990-2015) to jobs,&lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+	assuming that the center of gravity of jobs is City Hall (main municipality or administration building of the central city in the metropolitan area)&lt;/p&gt;&#13;
+&#13;
+	View Map</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Mode, Time and Cost of Commuting during Rush Hour View Locations</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Travel time to City Hall from Location 1: View Location</text>
+      <subQuestion varName="G11Q00002_SQ001">
+        <text>9.1 By car:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00002_SQ002">
+        <text>9.2 By two-wheeler:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00002_SQ003">
+        <text>9.3 By public transit:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00002_SQ004">
+        <text>9.4 Cost by public transit:</text>
+      </subQuestion>
+      <response varName="L001">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Typical/Average</label>
+        </free>
+      </response>
+      <response varName="L002">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Range: From</label>
+        </free>
+      </response>
+      <response varName="L003">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Range: To</label>
+        </free>
+      </response>
+      <response varName="1">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Comments</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Travel time to City Hall from: View Location</text>
+      <subQuestion varName="G11Q00003_SQ001">
+        <text>9.1 By car:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00003_SQ002">
+        <text>9.2 By two-wheeler:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00003_SQ003">
+        <text>9.3 By public transit:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00003_SQ004">
+        <text>9.4 Cost by public transit:</text>
+      </subQuestion>
+      <response varName="SQ001">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Typical/Average</label>
+        </free>
+      </response>
+      <response varName="SQ002">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Range: From</label>
+        </free>
+      </response>
+      <response varName="SQ003">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Range: To</label>
+        </free>
+      </response>
+      <response varName="SQ004">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Comments</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Travel time to City Hall from:View Location</text>
+      <subQuestion varName="G11Q00004_SQ001">
+        <text>9.1 By car:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00004_SQ002">
+        <text>9.2 By two-wheeler:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00004_SQ003">
+        <text>9.3 By public transit:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00004_SQ004">
+        <text>9.4 Cost by public transit:</text>
+      </subQuestion>
+      <response varName="SQ001">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Typical/Average</label>
+        </free>
+      </response>
+      <response varName="SQ002">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Range: From</label>
+        </free>
+      </response>
+      <response varName="SQ003">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Range: To</label>
+        </free>
+      </response>
+      <response varName="SQ004">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Comments</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Travel time to City Hall from: View Location</text>
+      <subQuestion varName="G11Q00005_SQ001">
+        <text>9.1 By car:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00005_SQ002">
+        <text>9.2 By two-wheeler:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00005_SQ003">
+        <text>9.3 By public transit:</text>
+      </subQuestion>
+      <subQuestion varName="G11Q00005_SQ004">
+        <text>9.4 Cost by public transit:</text>
+      </subQuestion>
+      <response varName="SQ001">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Typical/Average</label>
+        </free>
+      </response>
+      <response varName="SQ002">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Range: From</label>
+        </free>
+      </response>
+      <response varName="SQ003">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Range: To</label>
+        </free>
+      </response>
+      <response varName="SQ004">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>Comments</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Additional notes for section 9:</text>
+      <response varName="G11Q00006">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+</questionnaire>
