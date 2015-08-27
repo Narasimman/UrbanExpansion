@@ -1,0 +1,1687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="277579">
+  <title>Regulatory Survey - TEMPLATE</title>
+  <investigator/>
+  <dataCollector/>
+  <questionnaireInfo>
+    <position>before</position>
+    <text/>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <questionnaireInfo>
+    <position>after</position>
+    <text>Thank you for taking the time to participate in this survey.&#13;
+&lt;p&gt;&#13;
+	 &lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+	Please visit our website for more information&lt;/p&gt;</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <section id="17">
+    <sectionInfo>
+      <position>title</position>
+      <text>RESPONDENT INFORMATION</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text/>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>Name</text>
+      <subQuestion varName="Name_SQ001">
+        <text>First</text>
+      </subQuestion>
+      <subQuestion varName="Name_SQ003">
+        <text>Last</text>
+      </subQuestion>
+      <response varName="Name">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Position</text>
+      <response varName="Position">
+        <free>
+          <format>longtext</format>
+          <length>2</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Organization</text>
+      <response varName="Organization">
+        <free>
+          <format>longtext</format>
+          <length>2</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Telephone</text>
+      <response varName="Telephone">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Email</text>
+      <response varName="Email">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="63">
+    <sectionInfo>
+      <position>title</position>
+      <text>INTRODUCTION</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Please look at the map below. The red areas show the expansion area of the city between the years 1990-2010.</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	 &lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+  </section>
+  <section id="18">
+    <sectionInfo>
+      <position>title</position>
+      <text>PART I : LAND OWNERSHIP, LAND TRANSACTIONS, AND PROPERTY RIGHTS IN THE EXPANSION AREA</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	The survey has three parts. The first part asks questions about property ownership and rights in the expansion areas of the city, the second part focuses on land use regulations, and the third part focuses on the subdivision of land into residential plots. We are interested in the single answer that applies to &lt;u&gt;all or most&lt;/u&gt; of the land in the&lt;em&gt; Expansion Area&lt;/em&gt;. If a single answer does not apply to approximately 80% of the &lt;u&gt;land&lt;/u&gt; in the expansion area, we will ask you to write a short note explaining the situation in your city. If a question does not make sense to you, we want to understand why so that we obtain accurate information for your city. &lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Land Ownership</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Government Land Acquisition for Urban Development</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Squatter Settlements</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;&#13;
+	1.0 Ownership of land in the expansion area is (check one):&lt;/p&gt;</text>
+      <response varName="LandOwnership">
+        <fixed>
+          <category>
+            <label>Mostly private</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>Mostly tribal/customary</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>Mostly by rural communes</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>Mostly public (government ministries, agencies and institutions)</label>
+            <value>4</value>
+          </category>
+          <category>
+            <label>Mostly public (municipal)</label>
+            <value>5</value>
+          </category>
+          <category>
+            <label>Nationalized</label>
+            <value>6</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>7</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes1">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>1.1 The land registry/cadaster on the urban periphery is:</text>
+      <response varName="landresgistry">
+        <fixed>
+          <category>
+            <label>Complete</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Incomplete</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Non-existent</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the urban periphery</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes11">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>1.2 Contractual agreements regarding land transactions on the urban periphery are:</text>
+      <response varName="ContractualAgreement">
+        <fixed>
+          <category>
+            <label>Always binding</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Mostly binding</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Not binding</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the urban periphery</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes12">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	1.3 Land in the following types of ownership can be leased for private residential development for long periods:&lt;/p&gt;</text>
+      <response varName="SQ001">
+        <fixed>
+          <category>
+            <label>Tribal/customary</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ002">
+        <fixed>
+          <category>
+            <label>Rural communes</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ003">
+        <fixed>
+          <category>
+            <label>Nationalized land</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ004">
+        <fixed>
+          <category>
+            <label>Land owned by government ministries, agencies and institutions</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ005">
+        <fixed>
+          <category>
+            <label>Municipal land</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ006">
+        <fixed>
+          <category>
+            <label>Other (Specify)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>1.3.1 Tribal/customary </text>
+      <response varName="Tribal">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>1.3.2 Rural communes </text>
+      <response varName="Rural">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>1.3.3 Nationalized land</text>
+      <response varName="Nationalized">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>1.3.4 Land owned by government ministries, agencies and institutions </text>
+      <response varName="government">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>1.3.5 Municipal land </text>
+      <response varName="Municipal">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>1.3.6 Other (Specify) </text>
+      <response varName="Other">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.0 During the last decade, land acquisition for urban development on the urban periphery by government (in all its forms) has been:</text>
+      <response varName="acquisionfreq">
+        <fixed>
+          <category>
+            <label>Extensive or very extensive</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Common</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Infrequent and sporadic</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Minimal or non-existent</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>2.1 During the last decade, land development on the urban periphery was:</text>
+      <response varName="acquiredbygovt">
+        <fixed>
+          <category>
+            <label>All or mostly on land acquired by the government</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Partially on land acquired by the government</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Never or almost never on land acquired by the government</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the urban periphery</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes21">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>2.2 During the last decade, land for urban development on the urban periphery was acquired by the government through:</text>
+      <response varName="expropriation">
+        <fixed>
+          <category>
+            <label>Formal market transactions</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Expropriation with compensation at land-market values</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Expropriation with deferred compensation</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Expropriation with partial compensation</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>Expropriation without compensation</label>
+            <value>A5</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the urban periphery</label>
+            <value>A6</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes22">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	3.0 Were there any new squatter settlements on the urban periphery in the last decade?&lt;/p&gt;</text>
+      <response varName="SquatterSettlements">
+        <fixed>
+          <category>
+            <label>None</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Few</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Many</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.1 In your opinion, compared to earlier years, the formation of new squatter settlements is: </text>
+      <response varName="formationsquatter">
+        <fixed>
+          <category>
+            <label>Increasing</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Staying the same</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Declining</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.2 If there were new settlements in the last decade, they were located:</text>
+      <response varName="locationsq">
+        <fixed>
+          <category>
+            <label>All on public lands</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Mostly on public lands</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>On customary lands</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>On both public and private lands</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>Mostly on private lands</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.3 What is the most prevalent type of squatter settlement?</text>
+      <response varName="squattertype">
+        <fixed>
+          <category>
+            <label>Organized invasion by group of squatters</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Gradual unorganized infiltration by individual squatter families</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Area occupied Illegally by some squatters, land subdivided into plots, and then plots sold</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Other types of squatting</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	3.4 How often during the last decade have squatter settlements been demolished and their residents evicted? &lt;/p&gt;</text>
+      <response varName="squatterdemolished">
+        <fixed>
+          <category>
+            <label>Never</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Rarely</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Often</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Very Often</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.4.1 Does demolition and eviction require a court order?</text>
+      <response varName="courtordersq">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.4.2 Is notice of the plan to demolish given in advance?</text>
+      <response varName="noticegiven">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.4.3 Are resettlement areas being offered?</text>
+      <response varName="resettlementareas">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>3.4.4 Are there compensation packages offered to evictees?</text>
+      <response varName="compensationpacksq">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="19">
+    <sectionInfo>
+      <position>title</position>
+      <text>PART II : LAND USE REGULATION IN THE EXPANSION AREA</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	 &lt;/p&gt;&#13;
+&lt;p&gt;&#13;
+	 &lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Respect for Land Use Restrictions</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	Urban Containment Policies&lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>4.0 Is there a well-publicized and well-understood zoning and land use plan in force, which shows where urban development is not allowed, and what areas need to be reserved for public works and public open spaces?</text>
+      <response varName="zoning">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes40">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	4.1 Are there consultations with the public at early and middle stages of the plan-making process?&lt;/p&gt;</text>
+      <response varName="consultationspublic">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes41">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.1.1 Were there public hearings prior to approving the plan?</text>
+      <response varName="publicHearings">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes41a">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>4.1.2 Did the public affect any changes in the plan?            </text>
+      <response varName="publicParticipation">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	4.2 What is the typical time between plan revisions in the expansion area?&lt;/p&gt;</text>
+      <directive>
+        <position>during</position>
+        <text>Note: if the plan is revised every X months, the answer is X/12 years.</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="revisiontime">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	4.3 Is the zoning and land use plan respected:&lt;/p&gt;</text>
+      <subQuestion varName="planrespected_SQ001">
+        <text>By private developers</text>
+      </subQuestion>
+      <subQuestion varName="planrespected_SQ002">
+        <text>By government agencies</text>
+      </subQuestion>
+      <response varName="planrespected">
+        <fixed>
+          <category>
+            <label>Never</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Sometimes</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Always</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>5.0 Is containing the expansion of the city an explicit goal of the zoning and land use plan? </text>
+      <response varName="goalofzoning">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes50">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	5.1 Are regulations that prohibit development on specific plots in the expansion area respected:&lt;/p&gt;</text>
+      <subQuestion varName="regulationsrespected_SQ001">
+        <text>By private developers</text>
+      </subQuestion>
+      <subQuestion varName="regulationsrespected_SQ002">
+        <text>By government agencies</text>
+      </subQuestion>
+      <response varName="regulationsrespected">
+        <fixed>
+          <category>
+            <label>Never</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Sometimes</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Always</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	5.2 If the plan does seek to limit the expansion of the city, is it by using any of the following containment strategies? (check all that apply):&lt;/p&gt;</text>
+      <response varName="SQ001">
+        <fixed>
+          <category>
+            <label>Creating a green belt</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ002">
+        <fixed>
+          <category>
+            <label>Setting an urban growth boundary</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ003">
+        <fixed>
+          <category>
+            <label>Defining quotas on the amount of land that can be converted to urban use</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ004">
+        <fixed>
+          <category>
+            <label>Defining quotas on the issue of building permits</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ005">
+        <fixed>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes52">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	5.3 How long does it typically take to convert rural land on the urban periphery to urban use?&lt;/p&gt;</text>
+      <directive>
+        <position>during</position>
+        <text>&lt;p&gt;&#13;
+	Note: If the city converts land every X months, then the answer is X/12 years.&lt;/p&gt;</text>
+        <administration>self</administration>
+      </directive>
+      <subQuestion varName="ruraltourban_SQ001">
+        <text>A large-scale land assembly</text>
+      </subQuestion>
+      <subQuestion varName="ruraltourban_SQ002">
+        <text>A single plot of rural land</text>
+      </subQuestion>
+      <response varName="SQ001">
+        <free>
+          <format>text</format>
+          <length>10</length>
+          <label>months</label>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes53">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="22">
+    <sectionInfo>
+      <position>title</position>
+      <text>PART III : SUBDIVISION OF LAND ON THE URBAN PERIPHERY</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Note: The answers to the following questions pertain to new residential land subdivisions at the neighborhood level, typically of the order of city blocks or a 200-unit land subdivision project, excluding arterial roads or inter-city roads. </text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Responsibility for Street Layout &amp; Construction</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	Minimum Street Width&lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>8.0 Share of Subdivided Land in Plots for Sale</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Restrictions on Plot Size</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	Public Open Space&lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	Restrictions on Building Size&lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;Restrictions on Multi-Family Buildings&#13;
+&lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>If multi-family buildings are allowed:</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;&#13;
+	Average Time to Obtain all Permits for a Typical 200-unit Land Subdivision &lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>&lt;p&gt;Illegal Subdivisions &#13;
+ and Sale of Residential Plots&lt;/p&gt;</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <sectionInfo>
+      <position>before</position>
+      <text>Connecting to Municipal Water Supply</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>6.0 When land is converted to urban use, who designs the street layout and the subdivision of land into plots? </text>
+      <response varName="designingStreet">
+        <fixed>
+          <category>
+            <label>Municipality</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Other government agency</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Private developers</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes60">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>6.1 Who constructs infrastructure services (roads, water supply, sewerage, drainage etc.)?</text>
+      <response varName="infraservices">
+        <fixed>
+          <category>
+            <label>Municipality</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Other government agency</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Private developers</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes60b">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.0 Do land subdivision regulations mandate a minimum street width in front of residential plots?</text>
+      <response varName="mandateWidth">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes70">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>7.0.1 Specify minimum street width in meters:</text>
+      <response varName="minWidth">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>When a typical project is subdivided into plots, what share of the land is in plots that can be sold?</text>
+      <response varName="shareofplotssold">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>What share of the land is in other uses (streets, open spaces, public facilities, public land reserves, etc.)?</text>
+      <directive>
+        <position>during</position>
+        <text>Note: The two should add up to 100%</text>
+        <administration>self</administration>
+      </directive>
+      <response varName="shareofplotsother">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes90">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>9.0 Do residential land subdivision regulations mandate a minimum plot size?</text>
+      <response varName="mandateminimum">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes91">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>9.0.1 Specify minimum plot size:</text>
+      <response varName="minsize">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>9.1 Is there a maximum plot size? </text>
+      <response varName="maxSize">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>9.1.1 Specify maximum plot size: </text>
+      <response varName="maxsizespecify">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes911">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>10.0 Do land subdivision regulations mandate a minimum amount of land designated as public open space (other than streets and sidewalks)? </text>
+      <response varName="mandateminimum1">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>10.0.1 Check all that apply: </text>
+      <response varName="SQ001">
+        <fixed>
+          <category>
+            <label>Public open space (area per person) in the land being developed</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ002">
+        <fixed>
+          <category>
+            <label>Share of the land being developed</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ003">
+        <fixed>
+          <category>
+            <label>Contribute to public open space development elsewhere</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ004">
+        <fixed>
+          <category>
+            <label>Other</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Public open space area per person:</text>
+      <response varName="publicopenspace">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes100">
+        <free>
+          <format>longtext</format>
+          <length>40</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Share of land being developed:</text>
+      <response varName="shareofland">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Other criteria:</text>
+      <response varName="othercriteria">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>11.0 Are there limitations on the maximum sizes of residential buildings?</text>
+      <response varName="limitationsofmax">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>No answer applies to all or most of the expansion area</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>11.0.1 check all that apply: </text>
+      <response varName="SQ001">
+        <fixed>
+          <category>
+            <label>Maximum Floor Area Ratio (FAR)</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ002">
+        <fixed>
+          <category>
+            <label>Maximum building height</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ003">
+        <fixed>
+          <category>
+            <label>Maximum number of dwelling units per hectare</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="SQ004">
+        <fixed>
+          <category>
+            <label>Maximum plot coverage</label>
+            <value>1</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="maxsizetypeT">
+        <fixed>
+          <category>
+            <label>Other</label>
+            <value>1</value>
+            <contingentQuestion varName="maxsizetypeother">
+              <text>Other</text>
+              <length>24</length>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>What is the maximum Floor Area Ratio (FAR) allowed?</text>
+      <response varName="FAR">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>What is the maximum height allowed in meters?</text>
+      <response varName="maxHeight">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>What is the maximum number of dwellings per hectare allowed?</text>
+      <response varName="maxdwellings">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>What is the maximum plot coverage allowed?</text>
+      <response varName="maxPlotCoverage">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>Notes:</text>
+      <response varName="notes111">
+        <free>
+          <format>text</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	11.1 How often are there violations of the maximum building size regulations?&lt;/p&gt;</text>
+      <response varName="violationsofmax">
+        <fixed>
+          <category>
+            <label>Rarely</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Frequently</label>
+            <value>A2</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>12.0 What is the share of residential area on the urban fringe where construction of multi-family buildings is allowed?</text>
+      <response varName="shareofresident">
+        <fixed>
+          <category>
+            <label>All of the area</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Most of the area</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Around half of the area</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>A small share of the area</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>None of the area</label>
+            <value>A5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>12.0.1 Can single-family units be internally sub-divided into multi-family units?</text>
+      <response varName="singletomulti">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>12.0.2 Can additional dwelling units be added over time to single-family units?</text>
+      <response varName="additionaldwelling">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>12.0.3 Can additional floors be added over time to existing buildings?</text>
+      <response varName="additionalfloors">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>12.0.4 Is mixed use of plots (for residences and workplaces) allowed?</text>
+      <response varName="mixeduseofplots">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>13.0 What is the&lt;em&gt; typical&lt;/em&gt; time (in months) needed to obtain all the necessary permits for a 200-unit land subdivision on land already converted to urban use?</text>
+      <response varName="timetogetpermit">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	13.1 Once land subdivision is approved, what is the typical additional time required to get all building permits?&lt;/p&gt;</text>
+      <response varName="additionaltime">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>13.2 Type of subdivision that you are referring to: </text>
+      <response varName="typeofsubdiv">
+        <fixed>
+          <category>
+            <label>Individual dwelling units on individual plots of land</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Multi-family structures</label>
+            <value>A2</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>14.0 How common is it, during the last ten years for land brokers to buy rural land, subdivide it into plots and sell plots (with no services or with minimal services) that do not conform to land use regulations or to land subdivision regulations? </text>
+      <response varName="subdividelands">
+        <fixed>
+          <category>
+            <label>Never</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Rarely</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Often</label>
+            <value>A3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>14.0.1 what is the typical plot size in these subdivisions?</text>
+      <response varName="plotsizesubdiv">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>14.0.2 what is the typical street width in these subdivisions?</text>
+      <response varName="streetwidthsubdiv">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>14.0.3 What is the typical number of plots in such subdivisions?</text>
+      <response varName="numberofplots">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>14.0.4 What was the largest subdivision completed in the last decade?  </text>
+      <response varName="largestplot">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;&#13;
+	15.0 Are there built-up land subdivisions on the urban periphery that are &lt;u&gt;not&lt;/u&gt; connected to the municipal water supply? &lt;/p&gt;</text>
+      <response varName="notconnected">
+        <fixed>
+          <category>
+            <label>Yes</label>
+            <value>Y</value>
+          </category>
+          <category>
+            <label>No</label>
+            <value>N</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>15.0.1 What is their source of water? </text>
+      <response varName="sourceofwater">
+        <fixed>
+          <category>
+            <label>Wells</label>
+            <value>A1</value>
+          </category>
+          <category>
+            <label>Water trucks</label>
+            <value>A2</value>
+          </category>
+          <category>
+            <label>Rivers or streams</label>
+            <value>A3</value>
+          </category>
+          <category>
+            <label>Rainwater storage</label>
+            <value>A4</value>
+          </category>
+          <category>
+            <label>Other</label>
+            <value>-oth-</value>
+            <contingentQuestion varName="sourceofwaterother">
+              <text>Other</text>
+              <length>24</length>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+</questionnaire>
