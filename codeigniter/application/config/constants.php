@@ -84,3 +84,10 @@ define('EXIT_USER_INPUT', 7); // invalid user input
 define('EXIT_DATABASE', 8); // database error
 define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+define('URL','/codeigniter/application/assets/');
+
+define('CSS',URL.'css/');
+define('IMAGES',URL.'images/');
+define('JS',URL.'js/');
+define('DOCS',URL.'documents/');
