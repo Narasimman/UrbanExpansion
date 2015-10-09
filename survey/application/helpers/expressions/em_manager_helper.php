@@ -6828,7 +6828,7 @@
             $allJsVarsUsed=array();
             $rowdividList=array();   // list of subquestions needing relevance entries
             App()->getClientScript()->registerScriptFile(Yii::app()->getConfig('generalscripts')."expressions/em_javascript.js");;
-            $jsParts[] = "\n<script type='text/javascript'>\n<!--\n";
+            $jsParts[] = "\n<script type='text/javascript'>\n\n";
             $jsParts[] = "var LEMmode='" . $LEM->surveyMode . "';\n";
             if ($LEM->surveyMode == 'group')
             {
