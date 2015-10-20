@@ -55,8 +55,8 @@ $config['adminthemeiconsize'] =  32;                // This settings describes t
 
 
 // If the user enters password incorrectly
-$config['maxLoginAttempt']    =   3;                // Lock them out after 3 attempts
-$config['timeOutTime']        =   60 * 10;          // Lock them out for 10 minutes.
+$config['maxLoginAttempt']    =   30;                // Lock them out after 3 attempts
+$config['timeOutTime']        =   0;          // Lock them out for 10 minutes.
 
 // Site Settings
 $config['dropdownthreshold']  =   '25';             // The number of answers to a list type question before it switches from Radio Buttons to List
@@ -543,7 +543,7 @@ $config['RPCInterface'] = 'off';
 * Default is 2 hours
 * @var integer
 */
-$config['iSessionExpirationTime'] = 7200;
+$config['iSessionExpirationTime'] = 24000;
 
 /**
 * This parameter can be used to set some question not selectable in LimeReplacementFiels
