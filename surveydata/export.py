@@ -7,12 +7,20 @@ from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
+def export():
     mykey=get_session_key()
     result = export_responses2(mykey,'117325').decode('base64')
     #get_question_properties(mykey,'574')
+
+    resultjson = json.loads(result)
+
+    output = ""
+    for  key, value in resultjson['responses'][0]['17'].iteritems():
+         output += str(value)
+         output += "</br>"
+
     release_session_key(mykey) 
-    return result
+    return str(output)
 
         
 def get_session_key():
@@ -39,9 +47,9 @@ def get_question_properties(skey,QuestionID):
     req.add_header('connection', 'Keep-Alive')
     try:
         f = urllib2.urlopen(req)
-        myretun = f.read()
+        myreturn = f.read()
         #print myretun
-        j=json.loads(myretun)
+        j=json.loads(myreturn)
         return j['result']
     except :
         e = sys.exc_info()[0]
@@ -83,6 +91,7 @@ def export_responses2(skey,sid):
 
 		
 if __name__ == '__main__':
+    app.config.from_pyfile('config.py')
     app.run()
 
 
