@@ -2,9 +2,7 @@
 // without composer this line can be used
 require_once '../survey/application/libraries/jsonRPCClient.php';
 include 'PHPExcel/Classes/PHPExcel/IOFactory.php';
-
-
-define( 'LS_BASEURL', 'http://urbanexpansion.org/survey/index.php');  // adjust this one to your actual LimeSurvey URL
+require_once 'config.php';
 
 // the survey to process
 if(!empty($_POST)) {
@@ -54,7 +52,9 @@ foreach($survey_ids as $survey_id) {
         } #for
     } #if
 }
-
+if(sizeof($results) == 0) {
+    print "No Response recorded for this survey";
+} else {
 $keys = array_keys($results[0]);
 
 $length = sizeof($results);
@@ -98,5 +98,5 @@ $filePath = '/tmp/' . rand(0, getrandmax()) . rand(0, getrandmax()) . ".tmp";
 $objWriter->save($filePath);
 readfile($filePath);
 unlink($filePath);
-
+}
 ?>

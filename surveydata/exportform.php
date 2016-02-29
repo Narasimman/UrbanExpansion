@@ -2,12 +2,7 @@
 
 // without composer this line can be used
 require_once '../survey/application/libraries/jsonRPCClient.php';
-// with composer support just add the autoloader
-
-define( 'LS_BASEURL', 'http://urbanexpansion.org/survey/index.php');  // adjust this one to your actual LimeSurvey URL
-
-// the survey to process
-$survey_ids=array(117325,147543);
+require_once 'config.php';
 
 // instanciate a new client
 $myJSONRPCClient = new JsonRPCClient( LS_BASEURL.'/admin/remotecontrol' );
@@ -17,29 +12,21 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 ?>
 
 <head>
-<!-- Latest compiled and minified CSS -->
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' integrity='sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
-<!-- Latest compiled and minified JavaScript -->
-    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' integrity='sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS' crossorigin='anonymous'></script>
-
-<style>
-.options {
-    margin : 10px;
-}
-
-.survey_container {
-    width : 50%;
-    display: inline-block;
-}
-
-</style>
-
+    <style>
+        .options {
+            margin : 10px;
+            }
+        
+        .survey_container {
+            width : 50%;
+            display: inline-block;
+        }
+    </style>
 </head>
 
 <body>
-
-
 
 <?php
 $results = $myJSONRPCClient->list_surveys($sessionKey, 'admin');
@@ -57,29 +44,30 @@ foreach($results as $result) {
 ?>
 
 <form action="/surveydata/csv.php" method="post" class="form-horizontal">
+   <table class='table table-striped'>
+    <th>Regulatory</th> 
+    <tbody>
+    <input type='hidden' name='type' value='reg'/>
     <?php
-
-
-    print "<div class='survey_container'> <p> Regulatory Survey </p>";
+    
+    #Regulatory
     foreach($reglist as $result) {
         if($result['active'] == 'Y') {
  	    $label = substr($result['surveyls_title'], strpos($result['surveyls_title'], "-") + 1);
-        print "<p class='options'><input type='checkbox' name='id[]' value='" . $result['sid'] . "|" . $label . "'><label>" . $label . "</label></p>";
+        print "<tr><td><input type='checkbox' name='id[]' value='" . $result['sid'] . "|" . $label . "'><label>" . $label . "</label></td></tr>";
       }
     }
-    print "</div>";
 
     #Aff
-    print "<div class='survey_container'><p>Affordability Survey </p>";
-    foreach($afflist as $result) {
+/*    foreach($afflist as $result) {
         if($result['active'] == 'Y') {
  	    $label = substr($result['surveyls_title'], strpos($result['surveyls_title'], "-") + 1);
         print "<p class='options'><input type='checkbox' name='id[]' value='" . $result['sid'] . "|" . $label . "'><label>" . $label . "</label></p>";
       }
     }
-    print "</div>";
-
+*/
     ?>
+    </tbody></table>
     <input type="submit" name="submit" value="Submit" class="btn btn-primary"/>
 </form>
 
@@ -108,7 +96,9 @@ foreach($afflist as $result) {
 
 ?>
 
-</tbody></table>
+</tbody>
+</table>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 </body>
 
 <?php

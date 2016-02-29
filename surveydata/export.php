@@ -2,9 +2,7 @@
 
 // without composer this line can be used
 require_once '../survey/application/libraries/jsonRPCClient.php';
-// with composer support just add the autoloader
-
-define( 'LS_BASEURL', 'http://urbanexpansion.org/survey/index.php');  // adjust this one to your actual LimeSurvey URL
+require_once 'config.php';
 
 // the survey to process
 $postvars = $_POST['id'];
