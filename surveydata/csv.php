@@ -32,9 +32,11 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 
 $results = array();
+$i = 0;
 // receive all ids and info of groups belonging to a given survey
 foreach($survey_ids as $survey_id) {
     $responses = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', 'en', 'complete','short', 'long');
+    $title = $titles[$i];
     if(!isset($responses['status'])) {
         $json = base64_decode($responses);
         $decoded = json_decode( $json, true );
@@ -46,11 +48,12 @@ foreach($survey_ids as $survey_id) {
                         $processed_pairs[$key] = $value;
                     }
                 }
-
+                $processed_pairs['title'] = $title;
                 array_push($results, $processed_pairs);
             }
         } #for
     } #if
+    $i++;
 }
 if(sizeof($results) == 0) {
     print "No Response recorded for this survey";
@@ -85,6 +88,7 @@ foreach($results as $result) {
         $worksheet->setCellValue($column.$row, $result[$key]);
         $column++;
     }
+    $worksheet->setCellValue($column.$row, $result['title']);
     $row++;
 }
 
@@ -93,7 +97,7 @@ header('Content-Disposition: attachment;filename="export.xlsx"');
 header('Cache-Control: max-age=0');
 
 
-$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, $inputFileType);
 $filePath = '/tmp/' . rand(0, getrandmax()) . rand(0, getrandmax()) . ".tmp";
 $objWriter->save($filePath);
 readfile($filePath);
