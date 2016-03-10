@@ -49,7 +49,8 @@ foreach($survey_ids as $survey_id) {
                     }
                 }
                 $processed_pairs['title'] = $title;
-                array_push($results, $processed_pairs);
+                #array_push($results, $processed_pairs);
+                $results[$title] = $processed_pairs;
             }
         } #for
     } #if
@@ -58,10 +59,10 @@ foreach($survey_ids as $survey_id) {
 if(sizeof($results) == 0) {
     print "No Response recorded for this survey";
 } else {
-$keys = array_keys($results[0]);
+$keys = array_keys(array_values($results)[0]);
 
 $length = sizeof($results);
-
+ksort($results);
 $inputFileType = PHPExcel_IOFactory::identify('reg.xlsx');
 $objReader = PHPExcel_IOFactory::createReader($inputFileType);
 
@@ -82,7 +83,7 @@ $worksheet = $objPHPExcel->getActiveSheet();
 $row = 2;
 $column = 'A';
 
-foreach($results as $result) {
+foreach($results as $k => $result) {
     $column = 'A';
     foreach ($keys as $key) {
         $worksheet->setCellValue($column.$row, $result[$key]);
