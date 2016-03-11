@@ -35,11 +35,16 @@ $afflist = array();
 
 foreach($results as $result) {
     if(strpos($result['surveyls_title'], 'Regulatory') !== FALSE) {
-        array_push($reglist, $result);        
+        $city = substr($result['surveyls_title'], strpos($result['surveyls_title'], "-") + 1);
+        $city = trim($city);
+        $city = strtolower($city);
+        $reglist[$city]  = $result;   
     } else {
 	    array_push($afflist, $result);
     }
 }
+
+ksort($reglist);
 #print_r( $results);
 ?>
 
@@ -51,10 +56,23 @@ foreach($results as $result) {
     <?php
     
     #Regulatory
-    foreach($reglist as $result) {
+    foreach($reglist as $k => $result) {
         if($result['active'] == 'Y') {
- 	    $label = substr($result['surveyls_title'], strpos($result['surveyls_title'], "-") + 1);
-        print "<tr><td><input type='checkbox' name='id[]' value='" . $result['sid'] . "|" . $label . "'><label>" . $label . "</label></td></tr>";
+            $responses = $myJSONRPCClient->export_responses( $sessionKey, $result['sid'], 'json', 'en', 'complete','short', 'long');
+            $valid = false;
+            if(!isset($responses['status'])) {
+                $json = base64_decode($responses);
+                $decoded = json_decode( $json, true );
+                foreach ($decoded['responses'] as $key => $jsons) { // This will search in the 2 jsons
+                    foreach($jsons as $key => $pairs) {
+                        $valid = true;
+                        break;
+                    }
+                }
+            }
+            if($valid){
+                print "<tr><td><input type='checkbox' name='id[]' value='" . $result['sid'] . "|" . $k . "'><label>" . $k . "</label></td></tr>";
+            }
       }
     }
 
@@ -77,7 +95,7 @@ foreach($results as $result) {
 <tbody>
 
 <?php
-foreach($reglist as $result) {
+foreach($reglist as $k => $result) {
     if($result['active'] == 'Y') {
         print "<tr><td><a href='/surveydata/export.php?id=" . $result['sid'] . "' target='_blank'>Web</a></td>";
         print "<td><a href='/surveydata/csv.php?type=reg&id=" . $result['sid'] . "' target='_blank'>Excel</a></td>";
