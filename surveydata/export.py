@@ -25,7 +25,7 @@ def export():
         
 def get_session_key():
     req = urllib2.Request(url='http://urbanexpansion.org/survey/index.php/admin/remotecontrol',\
-                          data='{\"method\":\"get_session_key\",\"params\":{\"username\":\"\",\"password\":\"\"},\"id\":1}')
+                          data='{\"method\":\"get_session_key\",\"params\":{\"username\":\"admin\",\"password\":\"NYUurban1!\"},\"id\":1}')
     req.add_header('content-type', 'application/json')
     req.add_header('connection', 'Keep-Alive')
     try:

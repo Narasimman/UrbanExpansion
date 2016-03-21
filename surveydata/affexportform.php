@@ -30,33 +30,30 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 
 <?php
 $results = $myJSONRPCClient->list_surveys($sessionKey, 'admin');
-$reglist = array();
 $afflist = array();
 
 foreach($results as $result) {
-    if(strpos($result['surveyls_title'], 'Regulatory') !== FALSE) {
+    if(strpos($result['surveyls_title'],'Affordability') !== FALSE) {
         $city = substr($result['surveyls_title'], strpos($result['surveyls_title'], "-") + 1);
         $city = trim($city);
         $city = strtolower($city);
-        $reglist[$city]  = $result;   
-    } else {
-	    array_push($afflist, $result);
+        $afflist[$city]  = $result;   
     }
 }
 
-ksort($reglist);
+ksort($afflist);
 #print_r( $results);
 ?>
 
 <form action="/surveydata/csv.php" method="post" class="form-horizontal">
    <table class='table table-striped'>
-    <th>Regulatory</th> 
+    <th>Affordability</th> 
     <tbody>
-    <input type='hidden' name='type' value='reg'/>
+    <input type='hidden' name='type' value='aff'/>
     <?php
     
-    #Regulatory
-    foreach($reglist as $k => $result) {
+    #Affordability
+    foreach($afflist as $k => $result) {
         if($result['active'] == 'Y') {
             $responses = $myJSONRPCClient->export_responses( $sessionKey, $result['sid'], 'json', 'en', 'complete','short', 'long');
             $valid = false;
@@ -76,15 +73,7 @@ ksort($reglist);
       }
     }
 
-    #Aff
-/*    foreach($afflist as $result) {
-        if($result['active'] == 'Y') {
- 	    $label = substr($result['surveyls_title'], strpos($result['surveyls_title'], "-") + 1);
-        print "<p class='options'><input type='checkbox' name='id[]' value='" . $result['sid'] . "|" . $label . "'><label>" . $label . "</label></p>";
-      }
-    }
-*/
-    ?>
+?>
     </tbody></table>
     <input type="submit" name="submit" value="Submit" class="btn btn-primary"/>
 </form>
@@ -95,13 +84,6 @@ ksort($reglist);
 <tbody>
 
 <?php
-foreach($reglist as $k => $result) {
-    if($result['active'] == 'Y') {
-        print "<tr><td><a href='/surveydata/export.php?id=" . $result['sid'] . "' target='_blank'>Web</a></td>";
-        print "<td><a href='/surveydata/csv.php?type=reg&id=" . $result['sid'] . "' target='_blank'>Excel</a></td>";
-        print "<td>" . $result['surveyls_title'] . "</td></tr>";    
-    }
-}
 
 foreach($afflist as $result) {
     if($result['active'] == 'Y') {

@@ -44,7 +44,7 @@ foreach($survey_ids as $survey_id) {
         foreach ($decoded['responses'] as $key => $jsons) { // This will search in the 2 jsons
             foreach($jsons as $key => $pairs) {
                 foreach($pairs as $key => $value) {
-                    if(preg_match("/^G[^2]Q[0-9]*/", $key) == True) {
+                    if(preg_match("/^G[^2]*Q[0-9]*/", $key) == True) {
                         $processed_pairs[$key] = $value;
                     }
                 }
