@@ -42,10 +42,32 @@ foreach($results as $result) {
 }
 
 ksort($afflist);
+
+if(!empty($_GET['lang'])) {
+    $lang = $_GET['lang'];
+} else {
+    $lang = 'en';
+}
+
+
+
 #print_r( $results);
 ?>
 
 <form action="/surveydata/csv.php" method="post" class="form-horizontal">
+    <select name="lang" id="dropdown">
+        <option value="en">English(en)</option>
+        <option value="ar">Arabic(ar)</option>
+        <option value="zh-Hans">Chinese(zh-Hans)</option>
+        <option value="fr">French(fr)</option>
+        <option value="id">Indonesian(id)</option>
+        <option value="ja">Japanese(ja)</option>
+        <option value="ko">Korean(ko)</option>
+        <option value="pt-BR">Portuguese(pt-BR)</option>
+        <option value="ru">Russian(ru)</option>
+        <option value="es-AR">Spanish(es-AR)</option>
+    </select>
+  
    <table class='table table-striped'>
     <th>Affordability</th> 
     <tbody>
@@ -55,13 +77,14 @@ ksort($afflist);
     #Affordability
     foreach($afflist as $k => $result) {
         if($result['active'] == 'Y') {
-            $responses = $myJSONRPCClient->export_responses( $sessionKey, $result['sid'], 'json', 'en', 'complete','short', 'long');
+            $responses = $myJSONRPCClient->export_responses( $sessionKey, $result['sid'], 'json', $lang, 'complete','short', 'long');
             $valid = false;
             if(!isset($responses['status'])) {
                 $json = base64_decode($responses);
                 $decoded = json_decode( $json, true );
                 foreach ($decoded['responses'] as $key => $jsons) { // This will search in the 2 jsons
-                    foreach($jsons as $key => $pairs) {
+                   foreach($jsons as $key => $pairs) {
+#                    print($pairs['submitdate'] . "<br>");
                         $valid = true;
                         break;
                     }
@@ -87,8 +110,8 @@ ksort($afflist);
 
 foreach($afflist as $result) {
     if($result['active'] == 'Y') {
-        print "<tr><td><a href='/surveydata/export.php?id=" . $result['sid'] . "' target='_blank'>Web</a></td>";
-        print "<td><a href='/surveydata/csv.php?type=aff&id=" . $result['sid'] . "' target='_blank'>Excel</a></td>";
+        print "<tr><td><a href='/surveydata/export.php?id=" . $result['sid'] . "&lang=".$lang."' target='_blank'>Web</a></td>";
+        print "<td><a href='/surveydata/csv.php?type=aff&id=" . $result['sid'] . "&lang=".$lang."' target='_blank'>Excel</a></td>";
         print "<td>" . $result['surveyls_title'] . "</td></tr>";    
     }
 }

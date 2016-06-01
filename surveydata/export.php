@@ -6,6 +6,7 @@ require_once 'config.php';
 
 // the survey to process
 $postvars = $_POST['id'];
+$lang = $_POST['lang'];
 $survey_ids = array();
 $titles = array();
 
@@ -18,7 +19,13 @@ foreach($postvars as $var) {
 
 if(sizeof($survey_ids) <= 0) {
     $survey_ids = array($_GET['id']);
+    $lang = $_GET['lang'];
 }
+
+if(empty($lang)) {
+    $lang = 'en';
+}
+
 
 // instanciate a new client
 $myJSONRPCClient = new JsonRPCClient( LS_BASEURL.'/admin/remotecontrol' );
@@ -30,7 +37,7 @@ $sessionKey= $myJSONRPCClient->get_session_key( LS_USER, LS_PASSWORD );
 $results = array();
 // receive all ids and info of groups belonging to a given survey
 foreach($survey_ids as $survey_id) {
-    $responses = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', 'en', 'complete','full');
+    $responses = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', $lang, 'complete','full');
     if(!isset($responses['status'])) {
         $json = base64_decode($responses);
         $decoded = json_decode( $json, true );

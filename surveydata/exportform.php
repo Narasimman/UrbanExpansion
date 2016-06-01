@@ -46,9 +46,28 @@ foreach($results as $result) {
 
 ksort($reglist);
 #print_r( $results);
-?>
 
+if(!empty($_GET['lang'])) {
+    $lang = $_GET['lang'];
+} else {
+    $lang = 'en';
+}
+
+
+?>
 <form action="/surveydata/csv.php" method="post" class="form-horizontal">
+    <select name="lang" id="dropdown">
+        <option value="en">English</option>
+        <option value="ar">Arabic</option>
+        <option value="zh-Hans">Chinese</option>
+        <option value="fr">French</option>
+        <option value="id">Indonesian</option>
+        <option value="ja">Japanese</option>
+        <option value="ko">Korean</option>
+        <option value="pt-BR">Portuguese</option>
+        <option value="ru">Russian</option>
+        <option value="es-AR">Spanish</option>
+    </select>
    <table class='table table-striped'>
     <th>Regulatory</th> 
     <tbody>
@@ -97,16 +116,16 @@ ksort($reglist);
 <?php
 foreach($reglist as $k => $result) {
     if($result['active'] == 'Y') {
-        print "<tr><td><a href='/surveydata/export.php?id=" . $result['sid'] . "' target='_blank'>Web</a></td>";
-        print "<td><a href='/surveydata/csv.php?type=reg&id=" . $result['sid'] . "' target='_blank'>Excel</a></td>";
+        print "<tr><td><a href='/surveydata/export.php?id=" . $result['sid'] . "&lang=".$lang."' target='_blank'>Web</a></td>";
+        print "<td><a href='/surveydata/csv.php?type=reg&id=" . $result['sid'] . "&lang=".$lang."' target='_blank'>Excel</a></td>";
         print "<td>" . $result['surveyls_title'] . "</td></tr>";    
     }
 }
 
 foreach($afflist as $result) {
     if($result['active'] == 'Y') {
-        print "<tr><td><a href='/surveydata/export.php?id=" . $result['sid'] . "' target='_blank'>Web</a></td>";
-        print "<td><a href='/surveydata/csv.php?type=aff&id=" . $result['sid'] . "' target='_blank'>Excel</a></td>";
+        print "<tr><td><a href='/surveydata/export.php?id=" . $result['sid'] . "&lang=".$lang."' target='_blank'>Web</a></td>";
+        print "<td><a href='/surveydata/csv.php?type=aff&id=" . $result['sid'] . "&lang=".$lang."' target='_blank'>Excel</a></td>";
         print "<td>" . $result['surveyls_title'] . "</td></tr>";    
     }
 }

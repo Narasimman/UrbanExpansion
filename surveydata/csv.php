@@ -10,6 +10,7 @@ if(!empty($_POST)) {
     $survey_ids = array();
     $titles = array();
     $type = $_POST['type'];
+    $lang = $_POST['lang'];
 
     foreach($postvars as $var) {
         $item = explode("|", $var);
@@ -21,6 +22,10 @@ if(!empty($_POST)) {
     $type       = $_GET['type'];
 } else {
     print "<h1>No Survey Ids passed!</h1>";
+}
+
+if(empty($lang)) {
+    $lang = 'en';
 }
 
 #$survey_ids = array(147451);
@@ -35,7 +40,7 @@ $results = array();
 $i = 0;
 // receive all ids and info of groups belonging to a given survey
 foreach($survey_ids as $survey_id) {
-    $responses = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', 'en', 'complete','short', 'long');
+    $responses = $myJSONRPCClient->export_responses( $sessionKey, $survey_id, 'json', $lang, 'complete','short', 'long');
     $title = $titles[$i];
     if(!isset($responses['status'])) {
         $json = base64_decode($responses);
